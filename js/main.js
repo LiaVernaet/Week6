@@ -16,11 +16,15 @@
 	
 	//Functions
 	function addStuff(){
-		console.log("from addStuff")
+//		console.log("from addStuff")
+		console.log(num1.value);
+		console.log(num2.value);
+		
+		  var total = parseInt(num1.value) + parseInt(num2.value);  //ParseInt converts string to integer
+		console.log(total);
+		outcome.innerHTML = total; //innerHTML goes into p tag and edits. like doc.write
+	
 	}
-	
-	
-	
 	//Listeners
 	equals.addEventListener("click", addStuff, false);
 	
