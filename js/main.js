@@ -1,3 +1,14 @@
 // JavaScript Document
 
-console.log("Hello");
+(function() {
+	console.log("JS file loaded");
+	
+	//Variables
+	
+	
+	
+	//Functions
+	
+	
+	//Listeners
+})();
